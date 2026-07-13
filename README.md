@@ -30,7 +30,7 @@ Contributing to the agent-memory & agent-infra projects I research — PRs:
 - 🧠 [topoteretes/cognee](https://github.com/topoteretes/cognee) *(AI memory platform)* — [#3539](https://github.com/topoteretes/cognee/pull/3539) add `CENTRALITY` search type (PageRank/degree over the native graph projection)
 - 💾 [mem0ai/mem0](https://github.com/mem0ai/mem0) *(agent memory layer)* — [#5910](https://github.com/mem0ai/mem0/pull/5910) fix Elasticsearch KNN result cap · [#5908](https://github.com/mem0ai/mem0/pull/5908) lazy-import langchain-core in async procedural memory
 - 🤖 [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) *(coding agent)* — [#1628](https://github.com/langchain-ai/open-swe/pull/1628) stop agent factories mutating the caller's `RunnableConfig`
-- 🦌 [bytedance/deer-flow](https://github.com/bytedance/deer-flow) *(SuperAgent harness)* — [#3812](https://github.com/bytedance/deer-flow/pull/3812) fix MCP tool prefix-collision mis-routing
+- 🦌 [bytedance/deer-flow](https://github.com/bytedance/deer-flow) *(SuperAgent harness)* — [#3812](https://github.com/bytedance/deer-flow/pull/3812) fix MCP tool prefix-collision mis-routing · **open PRs *(in review)*:** [#4153](https://github.com/bytedance/deer-flow/pull/4153) harden SkillScan network-sink detection · [#4154](https://github.com/bytedance/deer-flow/pull/4154) escape MCP tool names in the deferred-tools prompt · [#4155](https://github.com/bytedance/deer-flow/pull/4155) block forged framework tags in the input guardrail
 - 🏋️ [OpenPipe/ART](https://github.com/OpenPipe/ART) *(agent RL trainer)* — [#741](https://github.com/OpenPipe/ART/pull/741) fork checkpoints across W&B entities
 
 ## 🌟 Featured
