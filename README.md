@@ -1,15 +1,23 @@
 # Hi, I'm Aari 👋
 
-**Agent Memory Systems** researcher · building memory-driven AI agents · MSc AI · Shenzhen, China
+**Agent runtime & memory engineer** · **78 merged PRs** into agent-infra OSS · MSc AI · Shenzhen, China
 
-> I research how agents remember — and contribute to the open-source projects building it (cognee, mem0).
+> I work on the layer under the agent — the harness, the sandbox, the memory, the parts that break in production.
 
 ## 🚀 About me
 
 - 🎓 MSc student in AI (2025–2028) — research focus: **Agent Memory Systems**
-- 🧠 I work on: giving agents durable long-term memory — tiered storage, knowledge-graph RAG, context compression, and agent harnesses
-- 🛠️ Creator of **TechSpar** — a memory-driven adaptive interview-coach agent (700+ ⭐, 90+ forks)
-- 🌱 Open to **AI agent / LLM internships**
+- 🔧 Core external contributor to **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)**, a long-horizon SuperAgent harness
+- 🛠️ Creator of **TechSpar** — a memory-driven adaptive interview-coach agent (828+ ⭐, 108 forks)
+- 🌱 Open to **AI agent / LLM infra internships**
+
+## 📦 Open source
+
+**78 PRs merged upstream since June 2026** — [all of them here](https://github.com/search?q=is%3Apr+author%3AAnnaSuSu+is%3Amerged+-user%3AAnnaSuSu&type=pullrequests).
+
+Most land in **[bytedance/deer-flow](https://github.com/bytedance/deer-flow)** (71), where I work on harness internals: sandbox isolation and secret containment, MCP tool routing and validation, prompt-injection guardrails on every path where untrusted text reaches the model, checkpoint/resume correctness under streaming, long-term memory writeback, and the durable task runtime.
+
+Elsewhere — [Canner/WrenAI](https://github.com/Canner/WrenAI) (6) · [mem0ai/mem0](https://github.com/mem0ai/mem0) · [infiniflow/ragflow](https://github.com/infiniflow/ragflow) and [langgenius/dify](https://github.com/langgenius/dify) in review.
 
 ## 🧰 Tech stack
 
@@ -18,24 +26,15 @@
 ![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
+- **Agent harness** — multi-agent & subagents · skills · sandboxed tool execution · MCP · durable tasks · checkpoint/resume
 - **Agent memory** — Mem0 · multi-tier memory (STM/MTM/LPM) · context compression · conflict-resolution writeback
 - **Retrieval / RAG** — Graph-RAG / HippoRAG · hybrid retrieval + reranker · ANN indexes (HNSW/IVF) · RAGAS
-- **Agents** — multi-agent & subagents · tool use · planning · state persistence · MCP
+- **Agent security** — prompt-injection guardrails · untrusted-content escaping · skill/tool supply-chain scanning · secret isolation
 - **Models / serving** — SFT · LoRA · vLLM
-
-## 📦 Open-source contributions
-
-Contributing to the agent-memory & agent-infra projects I research — PRs:
-
-- 🧠 [topoteretes/cognee](https://github.com/topoteretes/cognee) *(AI memory platform)* — [#3539](https://github.com/topoteretes/cognee/pull/3539) add `CENTRALITY` search type (PageRank/degree over the native graph projection)
-- 💾 [mem0ai/mem0](https://github.com/mem0ai/mem0) *(agent memory layer)* — [#5910](https://github.com/mem0ai/mem0/pull/5910) fix Elasticsearch KNN result cap · [#5908](https://github.com/mem0ai/mem0/pull/5908) lazy-import langchain-core in async procedural memory
-- 🤖 [langchain-ai/open-swe](https://github.com/langchain-ai/open-swe) *(coding agent)* — [#1628](https://github.com/langchain-ai/open-swe/pull/1628) stop agent factories mutating the caller's `RunnableConfig`
-- 🦌 [bytedance/deer-flow](https://github.com/bytedance/deer-flow) *(SuperAgent harness)* — [#3812](https://github.com/bytedance/deer-flow/pull/3812) fix MCP tool prefix-collision mis-routing · **open PRs *(in review)*:** [#4153](https://github.com/bytedance/deer-flow/pull/4153) harden SkillScan network-sink detection · [#4154](https://github.com/bytedance/deer-flow/pull/4154) escape MCP tool names in the deferred-tools prompt · [#4155](https://github.com/bytedance/deer-flow/pull/4155) block forged framework tags in the input guardrail
-- 🏋️ [OpenPipe/ART](https://github.com/OpenPipe/ART) *(agent RL trainer)* — [#741](https://github.com/OpenPipe/ART/pull/741) fork checkpoints across W&B entities
 
 ## 🌟 Featured
 
-- **[TechSpar](https://techspar.top)** ⭐700+ · 90+ forks — memory-driven adaptive interview coach: a unified candidate profile drives training / resume / JD-prep / real-time copilot / review in one self-improving loop (LangGraph + 3-tier memory)
+- **[TechSpar](https://techspar.top)** ⭐828 · 108 forks — memory-driven adaptive interview coach: a unified candidate profile drives training / resume / JD-prep / real-time copilot / review in one self-improving loop (LangGraph + 3-tier memory)
 - [arxiv-mcp](https://github.com/AnnaSuSu/arxiv-mcp) — MCP server for arXiv · [EvoGraph](https://github.com/AnnaSuSu/EvoGraph) · [MemRepo](https://github.com/AnnaSuSu/MemRepo)
 
 ## 🏆 Honors
