@@ -29,6 +29,5 @@ Also contributing to [infiniflow/ragflow](https://github.com/infiniflow/ragflow)
 - Patent — *Microkernel-architecture context manager for large language models*
 - 2nd Prize — ASC25 Student Supercomputer Challenge
 - Kaggle Bronze — Jigsaw Agile Community Rules Classification (SFT track)
-- 3rd Prize — China Postgraduate Mathematical Contest in Modeling (2025)
 
 📫 ansusu1025@gmail.com · [Kaggle](https://kaggle.com/tremorix)
